@@ -2,6 +2,7 @@
 
 .container {
     width: 80%;
+    margin: 0 auto;
 }
 
 .titulo {
@@ -22,15 +23,22 @@
     align-items: flex-start;
 }
 
-.card-img {
-    max-width: 19.2rem;
-    height: 100%;
+.card {
+    img {
+    width: 19.2rem;
+    height: 15rem;
     object-fit: center;
-    border-radius: 40px;
+    border-radius: 10px;
+    }
 }
 
+// .infos {
+//     width: 19.2rem;
+// }
+
 .property_type {
-    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-size: 1rem;
     color: #A3A3A3;
     font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -42,12 +50,13 @@
     color: #222222;
     font-family: Roboto, "Helvetica Neue", sans-serif;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
 .price {
-    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
     font-size: 1rem;
     color: #222222;
     font-family: Roboto, "Helvetica Neue", sans-serif;
